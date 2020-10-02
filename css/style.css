@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #222831;
+ 
+}
+.container{
+    width: 100%;
+    min-height:90vh;
+ 
+
+}
+.overlay {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    overflow:hidden;
+    background-position: center center;
+}
+.hero {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  
+}
+.logo {
+    width: 15%;
+    padding: 15px;
+    text-align: center;
+    color:white;
+}
+.nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.nav a{
+    width: 15%;
+    padding: 15px;
+    text-decoration: none; 
+    list-style:none;
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+}
+    .nav a:hover {
+        border-left: 2px solid red;
+        border-right:2px solid red;
+    }
+ 
+.section{
+    width: 90%;
+    margin: 0 auto;
+    min-height:500px;
+    color:white;
+}
+.section  .section-title{
+    text-align:center;
+    margin:15px;
+    padding: 10px;
+
+}
+.section-title h1{
+    font-size: 2.5rem;
+}
+.section-body{
+    width: 60%;
+    margin: 0 auto;
+   display: flex;
+  
+}
+.foto {
+    width: 30%;
+    margin: 0 auto;
+    background: red;
+}
+.text {
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+
